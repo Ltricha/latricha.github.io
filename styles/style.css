@@ -270,7 +270,15 @@ a.button-small{
 }
 
 .skill.php{
-	width: 50%;
+	width: 70%;
+}
+
+.skill.wordpress{
+	width: 30%
+}
+
+.skill.photoshop{
+	width: 55%;
 }
 
 .box{
@@ -280,6 +288,11 @@ a.button-small{
 	background: #3d3d4e;
 }
 
+
+input{
+	display: block;
+	margin: 30px 0px;
+}
 .filter{
 	margin: 0;
 	padding: 0;
