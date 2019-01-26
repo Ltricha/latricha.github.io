@@ -171,6 +171,11 @@ a.button-small{
 	background: #3d3d4e;
 }
 
+#contact h1{
+	text-align: center;
+	font-size: 30px;
+}
+
 
 .section{
 	min-height: 100vh;
@@ -289,10 +294,50 @@ a.button-small{
 }
 
 
-input{
-	display: block;
-	margin: 30px 0px;
+
+form {
+    margin: 0 auto;
+    width: 800px;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 1em;
 }
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+	font-size: 25px;
+    display: block;
+    text-align: left;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 800px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 15em;
+    resize: vertical;
+}
+
+form button{
+	background: #ffffff;
+	font: 20px sans-serif;
+	border: none;
+	padding: 10px;
+}
+
 .filter{
 	margin: 0;
 	padding: 0;
