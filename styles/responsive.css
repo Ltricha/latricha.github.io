@@ -23,8 +23,6 @@
   
   .grid-container{
 	display: grid;
-	display:-ms-grid;
-	-mis-grid-columns: 50% 50%;
 	grid-template-columns: repeat(2, 50%);
 	grid-gap: 20px;
 	justify-content: center;

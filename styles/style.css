@@ -179,8 +179,6 @@ a.button-small{
 
 .grid-container{
 	display: grid;
-	display:-ms-grid;
-	-mis-grid-columns: 75%;
 	grid-template-columns: 75%;
 	grid-gap: 20px;
 	justify-content: center;
@@ -234,40 +232,6 @@ a.button-small{
 
 .flex-item{
 	width: 50%;
-}
-
-.modal{
-	display: none;
-	z-index: 100;
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background: rgba(0, 0, 0, 0.7);
-}
-
-.modal-content{
-	position: relative;
-	width: 50%;
-	height: 75%;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	background: #ffffff;
-	color: #000000;
-}
-
-.modal-close{
-	position: absolute;
-	right: 0;
-	padding: 20px;
-	cursor: pointer;
-	font-size: 25px;
-}
-
-.modal-close:hover{
-	color: #888888;
 }
 
 .skill-item{
