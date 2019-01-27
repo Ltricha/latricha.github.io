@@ -54,19 +54,23 @@ ul{
 
 }
 
-a.button{
+.button{
 	position: relative;
 	top: 50px;
 	text-decoration: none;
+	background: #ffffff;
 	color: #000000;
 	font-size: 20px;
 	font-weight: bold;
 	padding: 15px;
-	background: #ffffff;
 	border-radius: 10%;;
 }
 
-a.button-small{
+.button:hover{
+	background: #bfbfbf;
+}
+
+.button-small{
 	position: static;
 	margin: 5px;
 	font-size: 15px;
@@ -331,9 +335,15 @@ textarea {
 
 form button{
 	background: #ffffff;
-	font: 20px sans-serif;
+	font: 25px sans-serif;
+	font-weight: bold;
 	border: none;
-	padding: 10px;
+	border-radius: 15px;
+	padding: 10px 15px;
+}
+
+form button:hover{
+	background: #bfbfbf;
 }
 
 .filter{
