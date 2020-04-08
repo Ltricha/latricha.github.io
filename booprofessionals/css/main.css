@@ -176,7 +176,7 @@ form input[type="checkbox"]{
 /*HEADER*/
 header{
 	box-sizing: border-box;
-	background: url('../img/laag20.png');
+	background: black url('../img/laag20.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
