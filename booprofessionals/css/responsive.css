@@ -1,0 +1,162 @@
+
+
+
+@media only screen and (min-width: 700px){
+
+  body{
+    font-size: 22px;
+  }
+
+
+
+  header{
+    height: 95vh;
+    padding: 2em;
+  }
+
+
+  .hero-text p{
+  	display: block;
+  }
+
+
+  #two{
+  	height: 150vh;
+  	background: url('../img/laag19.png') no-repeat bottom;
+    background-size: contain;
+  }
+
+
+
+  #two p:nth-of-type(2){
+  	display: block;
+  }
+
+
+  .button-responsive{
+    width: auto;
+  }
+
+  .slides{
+    height: 80vh;
+  }
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+
+  body{
+    font-size: 20px;
+  }
+
+  header{
+    height: 95vh;
+    padding: 6em;
+  }
+
+  .nav-burger{
+    display: none;
+  }
+
+  .nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .nav-top ul{
+    position: static;
+    display: flex;
+    width: auto;
+  }
+
+  .nav-item{
+    background: none;
+    display: block;
+  }
+
+  .fixedNav{
+  	z-index: 100;
+  	position: fixed;
+  	padding: 1em;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	background: rgba(0, 0, 0, 0.7);
+  }
+
+
+
+  .hero-text{
+    width: 40em;
+    /*margin-left: 3em;
+    margin-bottom: 3em;*/
+  }
+
+  #two{
+    height: 100vh;
+    padding: 6em;
+  	background: url('../img/laag27.png') no-repeat right;
+    background-size: cover;
+  }
+
+  #two article{
+    width: 40em;
+  }
+
+
+  #four img{
+  	width: auto;
+  }
+
+  #brandbuilders{
+    padding: 5em;
+  }
+
+  #brandbuilders article{
+    width: 50em;
+  }
+
+  .flex-group-two{
+    display: flex;
+  }
+
+  .flex-group-two > *{
+    width: 50%;
+  }
+
+  .contact-form{
+    padding: 6em;
+  }
+
+
+   footer{
+     display: inline;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+   }
+
+   footer h3{
+     display: inline;
+   }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1500px){
+
+  .lang-button{
+    display: block;
+  }
+
+}

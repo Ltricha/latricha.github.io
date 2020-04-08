@@ -1,0 +1,59 @@
+
+.c-form {
+  padding: 5rem;
+  background: $brown-primary;
+  color: #fff;
+
+
+  .input-group {
+    margin: 1.5rem 0;
+
+
+
+  }
+
+  input {
+    color: #000;
+    padding: 1.5rem;
+    background: #fff;
+    border-left: solid 5px #b59162;
+
+
+  }
+
+
+  input[name="firstname"] {
+    margin-right: 2%;
+  }
+
+  input[name="firstname"],
+  input[name="lastname"] {
+      width: 49%;
+
+  }
+
+  input[name="email"] {
+      width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+    resize: none;
+    outline: none;
+    padding: 1.5rem;
+    height: 12rem;
+    border-left: solid 5px #b59162;
+    color: #000;
+
+  }
+
+  p {
+    max-width: 100rem;
+  }
+
+  button {
+    border: solid;
+    padding: 0;
+  }
+
+}

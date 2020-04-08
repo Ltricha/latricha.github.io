@@ -1,0 +1,79 @@
+
+/*
+
+.c-store-finder {
+  position: relative;
+
+
+  @media (min-width: 768px) {
+    padding-bottom: 25rem;
+  }
+
+}
+*/
+
+.c-store-finder-hero {
+  position: relative;
+  height: 30rem;
+  background: url('../images/Home_2019_4.png');
+  background-size: cover;
+  @media (min-width: 768px) {
+    height: 50rem;
+  }
+
+  @media (min-width: 1200px) {
+    margin: 8rem 8rem 0 0;
+    .u-triangle {
+      display: block;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    margin: 8rem 0 0 0;
+  }
+
+}
+
+
+
+.c-store-finder {
+  padding: 8rem 5rem;
+  display: block;
+  text-align: center;
+  background-color: rgb(130, 48, 57);
+  h2 {
+    color: #fff;
+  }
+
+  @media (min-width: 768px) {
+    width: 720px;
+    position: relative;
+    bottom: 12rem;
+    margin: 0 auto;
+    //left: calc(50% - 380px);
+    .u-triangle {
+      display: block;
+    }
+
+  }
+
+  form div {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    background: #fff;
+
+
+    button {
+      font-size: 1.5rem;
+      border-radius: 50%;
+      background: #955057;
+      height: 4rem;
+      width: 4rem;
+      color: #fff;
+
+    }
+
+  }
+
+}

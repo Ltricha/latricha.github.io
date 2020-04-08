@@ -1,0 +1,21 @@
+.u-reset-ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.u-reset-arrow-list {
+  margin-bottom: 2rem;
+
+  li {
+    a {
+      display: block;
+      img {
+        width: 15px;
+      }
+    }
+  }
+}

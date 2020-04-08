@@ -1,0 +1,36 @@
+
+.c-products-container {
+  padding: 0;
+  margin-top: 15rem;
+  background: #e5e2db;
+  position: relative;
+
+  @media (min-width: 768px) {
+    .u-triangle {display: block;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    margin: 15rem 8rem 0 0;
+  }
+
+  @media (min-width: 1600px) {
+    margin: 15rem 0 0 0;
+  }
+
+
+  div {
+    text-align: center;
+
+  }
+
+  article {
+
+
+  }
+
+  img {
+    transform: translateY(-5rem);
+  }
+
+}

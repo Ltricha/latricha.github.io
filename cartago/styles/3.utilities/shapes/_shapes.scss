@@ -1,0 +1,37 @@
+
+
+
+.u-triangle {
+
+    display: none;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6.4rem 6.4rem 0;
+    border-color: transparent #ffffff transparent transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+
+  &.u-triangle--left-bottom {
+    top: inherit;
+    right: inherit;
+    left: 0;
+    bottom: 0;
+    border-width: 6.4rem 0 0 6.4rem;
+    border-color: transparent transparent transparent #ffffff;
+
+  }
+
+
+  &.u-triangle--right-top {
+    top: inherit;
+    right: inherit;
+    right: 0;
+    top: 0;
+    border-width: 0 6.4rem 6.4rem 0;
+
+  }
+
+}

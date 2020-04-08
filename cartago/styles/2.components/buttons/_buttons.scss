@@ -1,0 +1,56 @@
+.c-button {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  border-radius: 5rem;
+  border: none;
+  padding: .8rem 3rem;
+
+  &::after {
+
+  }
+
+}
+
+
+.c-button--border-brown {
+  border: 2px solid $brown-primary;
+  color: $brown-primary;
+  background: #fff;
+}
+
+.c-button--border-white {
+  border: 2px solid $white-primary;
+  color: $white-primary;
+  background: none;
+}
+
+
+.c-button--fill {
+  color: #fff;
+  background-color: $brown-primary;
+}
+
+
+
+.o-hero-slider-buttons .c-slider-button {
+  border-radius: 50%;
+  margin: 2px;
+  border: 2px solid;
+  padding: 2.5px;
+  display: inline-block;
+}
+
+
+.c-social-button {
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 1rem;
+  margin: 0 .5rem;
+  @media (min-width: 1200px) {display: none;}
+  @media (min-width: 1600px) {display: block;}
+
+}

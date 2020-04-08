@@ -1,0 +1,52 @@
+
+.c-banner {
+  height: 45rem;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+
+  h1 {
+    margin: 0 auto;
+
+    @media (min-width: 1200px) {
+      margin: 0 25rem;
+    }
+  }
+
+
+  &.c-banner--men {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/banners/Paginaslider_Men_2019.png');
+  }
+
+  &.c-banner--about {
+    background-image: url('../images/banners/Paginaslider_About_2019.png');
+  }
+
+  &.c-banner--stores {
+    background-image: url('../images/Home_2019_4.png');
+    height: 50rem;
+  }
+
+  &.c-banner--contact {
+    background-image: url('../images/banners/Paginaslider_Contact_2019.png');
+  }
+
+  &.c-banner--search {
+    background-image: url('../images/Home_2019_2.png');
+    justify-content: center;
+    flex-direction: column;
+
+    input {
+      background: #fff;
+      margin: 5rem 0 0 0;
+      padding: 2rem;
+      width: 50rem;
+    }
+
+  }
+
+}
